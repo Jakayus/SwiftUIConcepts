@@ -1,0 +1,46 @@
+
+Easy peasy UIViewRepresentable
+
+
+Step 1:
+
+Struct <custom view name> : UIViewRepresentable {
+
+}
+
+
+
+For example
+
+Struct WebView : UIViewRepresentable {
+
+}
+
+
+Step 2:
+Xcode will then say “Webview does not conform to UiView Representable” and ask about protocol stubs -> hit Fix
+
+Step 3:
+Xcode will put in a statement
+
+Typealias UIViewType = type     (where type is highlighted gray)
+
+
+Replace type with the UIKit you want to represent, for example UIImagePickerView or WKWebView
+
+
+
+Step 4:
+Xcode will then say type <type you entered> does not conform, and will offer protocol stubs
+
+Click Fix
+
+Step 5:
+
+Xcode has now filled out the protocol stubs for you! :) Now fill in the UIKit functions as appropriate!
+
+
+
+NOTE:
+
+a "coordinator" class will have to be made in order to pass data between views. I may create a file to cover that in the future.
