@@ -56,9 +56,9 @@
 		DC2C36AD24AC5C0D00C3CF24 /* SwiftUITabbed */ = {
 			isa = PBXGroup;
 			children = (
+				DC2C36C224AC605F00C3CF24 /* Views */,
 				DC2C36AE24AC5C0D00C3CF24 /* AppDelegate.swift */,
 				DC2C36B024AC5C0D00C3CF24 /* SceneDelegate.swift */,
-				DC2C36B224AC5C0D00C3CF24 /* ContentView.swift */,
 				DC2C36B424AC5C0E00C3CF24 /* Assets.xcassets */,
 				DC2C36B924AC5C0E00C3CF24 /* LaunchScreen.storyboard */,
 				DC2C36BC24AC5C0E00C3CF24 /* Info.plist */,
@@ -73,6 +73,14 @@
 				DC2C36B724AC5C0E00C3CF24 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		DC2C36C224AC605F00C3CF24 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				DC2C36B224AC5C0D00C3CF24 /* ContentView.swift */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
