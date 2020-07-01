@@ -14,19 +14,30 @@ struct ContentView: View {
     
     //MARK: View
     var body: some View {
+        
+        VStack {
+            Text("TAB APP! (this will stay at the top)")
+            Spacer()
             TabView {
-                Text("Sample Tab 1")
-                    .tabItem{
-                        Text("Text")
-                        Image(systemName: "bubble.right.fill")
-                    }
-                Text ("Sample Tab 2")
-                    .tabItem {
-                        Text("Call")
-                        Image(systemName: "phone.fill")
-                    }
-                
-            }//end TabView
+                    Text ("Sample Tab 1")
+                        .tabItem{
+                            Text("Text")
+                            Image(systemName: "bubble.right.fill")
+                        }
+                    Text ("Sample Tab 2")
+                        .tabItem {
+                            Text("Call")
+                            Image(systemName: "phone.fill")
+                        }
+                    
+                    WebView()
+                        .tabItem {
+                            Text("WebView")
+                            Image(systemName: "wifi")
+                        }
+                    
+            }
+        }//end TabView
         
     } //end View
     

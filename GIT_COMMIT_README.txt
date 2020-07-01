@@ -1,6 +1,6 @@
 GIT COMMIT example
 
-Please label your Git Commit Summaries with <TYPE>_Summary
+Please label your Git Commit Summaries with <TYPE> Summary
 
 For example:
 
@@ -10,13 +10,13 @@ FIX Corrected landscape UI
 
 Commit Types
 
-NEW         Added a feature that did not exist
-REMOVE      Remove a feature that already exists
-IMPROVE     Update a current feature
-CHANGE      Redesign a current feature
-FIX         Fix applied to a known or discovered bug
-BUG         Reporting a bug and commenting out code/making anomaly known
-OTHER       Any other commits that are uncategorized
+NEW             Added a feature that did not exist
+REMOVE          Remove a feature that already exists
+IMPROVE         Update a current feature
+CHANGE          Redesign a current feature
+FIX             Fix applied to a known or discovered bug
+BUG             Reporting a bug and commenting out code/making anomaly known
+OTHER           Any other commits that are uncategorized
 
 
 
