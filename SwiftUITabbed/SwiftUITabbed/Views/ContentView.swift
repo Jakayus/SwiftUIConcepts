@@ -35,6 +35,12 @@ struct ContentView: View {
                             Text("WebView")
                             Image(systemName: "wifi")
                         }
+                
+                    SceneView()
+                        .tabItem {
+                            Text("Game")
+                            Image(systemName: "gamecontroller.fill")
+                        }
                     
             }
         }//end TabView
