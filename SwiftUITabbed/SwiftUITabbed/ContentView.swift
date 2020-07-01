@@ -9,9 +9,30 @@
 import SwiftUI
 
 struct ContentView: View {
+    
+    //MARK: Properties
+    
+    //MARK: View
     var body: some View {
-        Text("Hello, World!")
-    }
+            TabView {
+                Text("Sample Tab 1")
+                    .tabItem{
+                        Text("Text")
+                        Image(systemName: "bubble.right.fill")
+                    }
+                Text ("Sample Tab 2")
+                    .tabItem {
+                        Text("Call")
+                        Image(systemName: "phone.fill")
+                    }
+                
+            }//end TabView
+        
+    } //end View
+    
+    
+    //MARK: Functions
+    
 }
 
 struct ContentView_Previews: PreviewProvider {
