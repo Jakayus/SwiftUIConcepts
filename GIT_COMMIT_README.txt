@@ -10,7 +10,7 @@ FIX Corrected landscape UI
 
 Commit Types
 
-NEW             Added a feature that did not exist
+ADD             Added a feature that did not exist
 REMOVE          Remove a feature that already exists
 IMPROVE         Update a current feature
 CHANGE          Redesign a current feature
