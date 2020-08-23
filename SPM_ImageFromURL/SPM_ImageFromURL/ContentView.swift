@@ -19,13 +19,14 @@ struct ContentView: View {
     
     var body: some View {
         VStack {
-            Text("Hello, World!")
+            //Text("Hello, World!")
             
-            RemoteImageView(url: URL(string: urlString)!, placeholderImage: Image.init("placeholder"), transition: .none).imageProcessing({ image in
-                return image
-                .resizable()
-                    .aspectRatio(contentMode: .fit)
-            })
+            RemoteImageView(url: URL(string: urlString)!, placeholderImage: Image.init("placeholder"), transition: .none)
+                .imageProcessing({ image in
+                    return image
+                        .resizable()
+                        .aspectRatio(contentMode: .fit)
+                })
             
             
         }
