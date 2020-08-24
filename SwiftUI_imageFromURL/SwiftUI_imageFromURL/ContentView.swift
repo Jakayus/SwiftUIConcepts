@@ -9,8 +9,13 @@
 import SwiftUI
 
 struct ContentView: View {
+    
+    let imageUrl = "https://images.unsplash.com/photo-1598186004076-e062b6555c53?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=700&q=80"
+    
+    
+    
     var body: some View {
-        Text("Hello, World!")
+        RemoteImageView(url: imageUrl)
     }
 }
 

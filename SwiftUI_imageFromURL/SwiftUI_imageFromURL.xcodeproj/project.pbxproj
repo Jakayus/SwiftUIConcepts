@@ -13,6 +13,8 @@
 		DCC6C4AE24F3324D00F25E3F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DCC6C4AD24F3324D00F25E3F /* Assets.xcassets */; };
 		DCC6C4B124F3324D00F25E3F /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DCC6C4B024F3324D00F25E3F /* Preview Assets.xcassets */; };
 		DCC6C4B424F3324D00F25E3F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DCC6C4B224F3324D00F25E3F /* LaunchScreen.storyboard */; };
+		DCC6C4BE24F36F7400F25E3F /* ImageLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCC6C4BD24F36F7400F25E3F /* ImageLoader.swift */; };
+		DCC6C4C024F370B100F25E3F /* RemoteImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCC6C4BF24F370B100F25E3F /* RemoteImageView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		DCC6C4B024F3324D00F25E3F /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		DCC6C4B324F3324D00F25E3F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		DCC6C4B524F3324D00F25E3F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DCC6C4BD24F36F7400F25E3F /* ImageLoader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageLoader.swift; sourceTree = "<group>"; };
+		DCC6C4BF24F370B100F25E3F /* RemoteImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RemoteImageView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +63,8 @@
 				DCC6C4A724F3324B00F25E3F /* AppDelegate.swift */,
 				DCC6C4A924F3324B00F25E3F /* SceneDelegate.swift */,
 				DCC6C4AB24F3324B00F25E3F /* ContentView.swift */,
+				DCC6C4BD24F36F7400F25E3F /* ImageLoader.swift */,
+				DCC6C4BF24F370B100F25E3F /* RemoteImageView.swift */,
 				DCC6C4AD24F3324D00F25E3F /* Assets.xcassets */,
 				DCC6C4B224F3324D00F25E3F /* LaunchScreen.storyboard */,
 				DCC6C4B524F3324D00F25E3F /* Info.plist */,
@@ -148,6 +154,8 @@
 			files = (
 				DCC6C4A824F3324B00F25E3F /* AppDelegate.swift in Sources */,
 				DCC6C4AA24F3324B00F25E3F /* SceneDelegate.swift in Sources */,
+				DCC6C4BE24F36F7400F25E3F /* ImageLoader.swift in Sources */,
+				DCC6C4C024F370B100F25E3F /* RemoteImageView.swift in Sources */,
 				DCC6C4AC24F3324B00F25E3F /* ContentView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
