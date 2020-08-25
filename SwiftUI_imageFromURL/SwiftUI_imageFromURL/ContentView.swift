@@ -15,7 +15,8 @@ struct ContentView: View {
     
     
     var body: some View {
-        RemoteImageView(url: imageUrl)
+        //RemoteImageView(url: imageUrl)
+        differentRemoteImageView(url: imageUrl)
     }
 }
 
