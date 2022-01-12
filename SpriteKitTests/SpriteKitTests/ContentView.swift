@@ -25,6 +25,8 @@ class GameScene: SKScene {
 }
 
 
+
+
 struct ContentView: View {
     
     var scene: SKScene {
@@ -35,8 +37,10 @@ struct ContentView: View {
     }
     
     
+    var scene2 = SKScene(fileNamed: "SecondGame")
+    
     var body: some View {
-        SpriteView(scene: scene)
+        SpriteView(scene: scene2 ?? scene )
             .frame(width: 300, height: 400)
             .ignoresSafeArea()
     }

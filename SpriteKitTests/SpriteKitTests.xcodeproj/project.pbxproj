@@ -14,6 +14,7 @@
 		DC607547278EA2F400F738DC /* SpriteKitTestsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC607546278EA2F400F738DC /* SpriteKitTestsTests.swift */; };
 		DC607551278EA2F400F738DC /* SpriteKitTestsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC607550278EA2F400F738DC /* SpriteKitTestsUITests.swift */; };
 		DC607553278EA2F400F738DC /* SpriteKitTestsUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC607552278EA2F400F738DC /* SpriteKitTestsUITestsLaunchTests.swift */; };
+		DC607560278EA98E00F738DC /* SecondGame.sks in Resources */ = {isa = PBXBuildFile; fileRef = DC60755F278EA98E00F738DC /* SecondGame.sks */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +45,7 @@
 		DC60754C278EA2F400F738DC /* SpriteKitTestsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SpriteKitTestsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		DC607550278EA2F400F738DC /* SpriteKitTestsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpriteKitTestsUITests.swift; sourceTree = "<group>"; };
 		DC607552278EA2F400F738DC /* SpriteKitTestsUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpriteKitTestsUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		DC60755F278EA98E00F738DC /* SecondGame.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = SecondGame.sks; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,6 +98,7 @@
 			children = (
 				DC607535278EA2F100F738DC /* SpriteKitTestsApp.swift */,
 				DC607537278EA2F100F738DC /* ContentView.swift */,
+				DC60755F278EA98E00F738DC /* SecondGame.sks */,
 				DC607539278EA2F300F738DC /* Assets.xcassets */,
 				DC60753B278EA2F300F738DC /* Preview Content */,
 			);
@@ -232,6 +235,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				DC60753D278EA2F300F738DC /* Preview Assets.xcassets in Resources */,
+				DC607560278EA98E00F738DC /* SecondGame.sks in Resources */,
 				DC60753A278EA2F300F738DC /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
